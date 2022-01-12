@@ -1,0 +1,30 @@
+bithub - gustavoguanabara
+
+Referência
+
+MDN - mozilla developer network
+
+w3c - referencia offial mozila - criada pela WWW - world wide web consorcium
+WhatWG - 
+w3schools
+
+Sites para imagens
+
+google - colocar imagens liberadas (na mesma aba de segmentação)
+
+unsplash
+
+pexels
+
+programa p edição de imagens
+
+gimp.org
+
+
+FORMATOS DE IMAGEM
+
+PNG - PERMITE FLUANDO
+
+JPEG - IMAGEM COMPACTADA - ELA É BOA PARA FUNDO , MAS NÃO ACEITA TRANSPARÊNCIA
+
+
