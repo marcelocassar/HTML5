@@ -31,6 +31,7 @@ body {
     background-color: var('--cor0');
     font-family: var('--fonte-padrao');
     margin: 0px;    padding: 0px;
+    
 }
 
 header {

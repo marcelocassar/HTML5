@@ -1,15 +1,20 @@
 @charset "UFT-8";
 
+:root {
+
+--azulesc: #083d77ff;
+--amarelo: #ffbf0dff;
+--marrom: #432818ff;
+--branco: #fffffaff;
+--azulclaro: #8da9c4ff;
+
+}
+
 * {
 
     padding: 0px;
     margin: 0px;
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
 }
 
-#nav {
-
-    width: 800px; 
-    height: 50px;
-  
-}
