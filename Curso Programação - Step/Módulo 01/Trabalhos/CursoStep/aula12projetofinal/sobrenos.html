@@ -6,121 +6,140 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index - Página do Escritório Richter Cassar e Costa</title>
     <link rel="stylesheet" href="style.css">
-    <style> 
     
-* {
+    <style>
+    
+    :root {
 
-    margin: 0px;
-    padding: 0px;
-    margin-right: auto;
-    margin-left: auto;
-
+--azulesc: #083d77ff;
+--amarelo: #ffbf0dff;
+--marrom: #432818ff;
+--branco: #fffffaff;
+--azulclaro: #8da9c4ff;
+--meuamarelo: rgb(255, 255, 237)
 }
 
 body {
-
-    width: 850px;
+    max-width: 650px;
+    background-color: var(--azulclaro);
+    margin:auto;
 }
 
 header {
 
-    background-color: black;
+
+   background-image: linear-gradient(to bottom, var(--azulclaro), var(--azulesc));
     text-align: center;
+    max-width: 600px;
+    min-width: 280px;
+    margin: auto;
 }
 
 header img {
-
     width: 250px;
     padding-bottom: 10px;
-
 }
 
 nav {
     text-align: center; 
-    background-color: black;
-    margin-top: -3px;
+    background-color: var(--azulesc);
     padding-bottom: 7px;
-
+    max-width: 600px;
+    margin: auto;
 }
 
 nav > a {
 
-    text-decoration: none;
-    color: rgb(218, 218, 218);
-    padding: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.35);
-        
+text-decoration: none;
+color: var(--branco);
+padding: 10px;
+text-shadow: 1px 2px 0px var(--marrom));
+font-weight: bold;    
+
 }
 
 nav > a:hover {
 
     background-color: white;
-    color: yellow;
+    color: #ffbf0dff;
     text-shadow: 1px 1px 1px black;
     border-radius: 5px;
 
 }
 
 main { 
-    background-color: rgb(255, 255, 237);
-    padding: 30px;
-    
-}
-
-main > img {
-
-    position: absolute;
-    left: 340px;
-    width: 650px;
-    height: 420px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.618);
+    max-width: 600px;
+    min-width: 280px;
+    margin: auto;
+    background-color: var(--branco);
 }
 
 h1 {
 
-    width: 500px;
+    max-width: 250px;
+    color: var(--azulesc);
     text-align: center;
+    text-shadow: 1px 1px 0px var(--marrom);
     margin: auto;
     padding: 30px;
 }
 
 h2 {
-
     width: 500px;
     padding-top: 20px;
     text-align: center;
     margin: auto;
 }
 
-main>p {
+#camila {
 
-    font-size: 15px;
-    padding: 5px;
-    line-height: 22px;
+   width: 150px;
+   height: 150px;
+   position: absolute;
+   padding: 0px;
+   margin-left: 40px;
+   border-radius: 15px;
+   box-shadow: 3.5px 2.5px 1.5px rgba(107, 107, 107, 0.439);
+
+
+}
+
+#marcelo {
+
+   width: 150px;
+   height: 150px;
+   padding: 0px;
+   position: absolute;
+   margin-left: 410px;
+   border-radius: 15px;
+   box-shadow: 1px 1px 0px black;
+   box-shadow: 3.5px 2.5px 1.5px rgba(107, 107, 107, 0.439);
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(4, 1, 10);
+    font-weight: lighter;
 }
 
 footer {
-
-    background-color: black;
-    padding: 10px;
-    color: white;
-    font-size: 8px;
-    text-align: center;
-
-
+background-color: var(--azulesc);
+max-width: 600px;
+min-width: 280px;
+color: white;
+text-shadow: 0.2px 0.2px 0px var(--marrom);
+font-size: 12px;
+margin:auto;
+text-align: center;
 }
 
-    </style>
-
-
+</style>
 </head>
 <body>
 
 <header>
 
-<img src="../aula12projetofinal/imagens/Logo2.png" alt="Logo">
+    <img src="../aula12projetofinal/imagens/logo claro.png" alt="Logo">
 
 </header>
 
@@ -131,8 +150,7 @@ footer {
     <a href="areas.html">Áreas de Atuação</a>
     <a href="blog.html">Blog</a>
     <a href="form.html">Formulários</a>
-    <a href="fale.html">Fale Conosco</a>
-    
+    <a href="fale.html">Fale Conosco</a>    
 
 </nav>
 
@@ -141,13 +159,13 @@ footer {
 
     <p style="text-align: right;">Somos um escritório fundado em 2017 por dois sócios com experiências em setores distintos no direito.</p>
     
-    <img style="margin-left: -221px; width: 150px; height: 150px ;" src="../aula12projetofinal/imagens/fotocamila.png" alt="">
+    <img id="camila" src="../aula12projetofinal/imagens/fotocamila.png" alt="">
 
     <p style="margin-left: 220px; padding-top:40px; padding-bottom: 40px;  text-align: right;" > A <strong>Dra. Camila</strong> é advogada com ampla experiência em direito bancário, tendo inclusive trabalhado por mais de 4 anos no setor, e direito de família.
     Pós Graduada em Direito Processual Civil.</p>
         <br>
 
-    <img style="margin-left: 300px; width: 150px; height: 150px; " src="../aula12projetofinal/imagens/foto.png" alt="">
+    <img id="marcelo" src="../aula12projetofinal/imagens/foto.png" alt="">
 
     <p style="margin-right: 220px;">Já o <strong>Dr. Marcelo Richter Cassar</strong> é advogado, com ampla vivência empresarial. Atuando diretamente no setor de energia e indústria por mais de 6 anos, possui ampla experiência nos direitos trabalhista e consumidor no segmento. Com MBA em gestão empresarial pela FGV, trata-se de profissional qualificado para avaliação ampla de empresas que buscam um crescimento organizado e jurididicamente seguro.</p>
 
@@ -165,3 +183,4 @@ footer {
 
 
 </html>
+
