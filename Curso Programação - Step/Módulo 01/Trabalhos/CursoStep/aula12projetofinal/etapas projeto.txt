@@ -1,0 +1,24 @@
+> para fazer o desenho do site
+mockflow.com
+control + shift + + - zoom
+
+> planejamento de cores
+adobecolors
+coolers
+
+> planejamento de fonts
+
+https://www.dafont.com/
+Google Fonts
+
+> colocação de icone - favcom
+link rel="shortcut icon" href="imagens favicon" type="image/x-icon"
+
+> começar o css:
+
+1) Charset
+2) Colocar o root com paletas e fonts
+3) tirar padding e margin
+
+
+* Link para fora --> target:_black  (tem underline mesmo
