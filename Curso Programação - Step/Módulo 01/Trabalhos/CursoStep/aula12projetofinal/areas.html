@@ -8,66 +8,72 @@
     <link rel="stylesheet" href="style.css">
     <style> 
     
-* {
+      
+    :root {
 
-    margin: 0px;
-    padding: 0px;
-    margin-right: auto;
-    margin-left: auto;
-
+--azulesc: #083d77ff;
+--amarelo: #ffbf0dff;
+--marrom: #432818ff;
+--branco: #fffffaff;
+--azulclaro: #8da9c4ff;
+--meuamarelo: rgb(255, 255, 237)
 }
 
 body {
-
-    width: 850px;
+    max-width: 650px;
+    background-color: var(--azulclaro);
+    margin:auto;
 }
 
 header {
 
-    background-color: black;
+
+   background-image: linear-gradient(to bottom, white, white);
     text-align: center;
+    max-width: 600px;
+    min-width: 280px;
+    margin: auto;
 }
 
 header img {
-
     width: 250px;
     padding-bottom: 10px;
-
 }
 
 nav {
     text-align: center; 
-    background-color: black;
-    margin-top: -3px;
+    background-color: var(--azulesc);
     padding-bottom: 7px;
-
+    max-width: 600px;
+    margin: auto;
 }
 
 nav > a {
 
-    text-decoration: none;
-    color: rgb(218, 218, 218);
-    padding: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.35);
-        
+text-decoration: none;
+color: var(--branco);
+padding: 10px;
+text-shadow: 1px 2px 0px var(--marrom);
+font-weight: bold;    
+
 }
 
 nav > a:hover {
 
     background-color: white;
-    color: yellow;
+    color: #ffbf0dff;
     text-shadow: 1px 1px 1px black;
     border-radius: 5px;
 
 }
 
 main { 
-    background-color: rgb(255, 255, 237);
-    padding: 30px;
-    
+    max-width: 600px;
+    min-width: 280px;
+    margin: auto;
+    background-color: var(--branco);
 }
-
+  
 main > img {
 
     position: absolute;
@@ -92,6 +98,8 @@ h2 {
     padding-top: 20px;
     text-align: center;
     margin: auto;
+    color: var(--azulesc);
+    text-shadow: 0px 0.3px 0px var(--marrom);
 }
 
 main>p {
@@ -105,15 +113,17 @@ div {
 
     text-align: center;
     padding: 10px;
-  
+    
 }
 
 span {
 
     display: inline-block;
-    width: 220px;
-    margin: 30px;
+    width: 300px;
+    margin-right: 20px;
     font-size: 12px;
+    
+  
         }
 
 span > img {
@@ -123,6 +133,7 @@ span > img {
 
 span tr {
     font-size: 122px;
+    
 }
 
 span p {
@@ -134,17 +145,22 @@ span p {
 
     font-size: 20px;
     color: burlywood;
+    text-shadow: 0px 1px 1px var(--marrom);
 
 }
 
 footer {
 
-    background-color: black;
+    background-color: var(--azulesc);
     padding: 10px;
     color: white;
     font-size: 8px;
     text-align: center;
-
+    max-width: 590px;
+    min-width: 280px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.309);
 
 }
 
@@ -156,7 +172,7 @@ footer {
 
 <header>
 
-<img src="../aula12projetofinal/imagens/Logo2.png" alt="Logo">
+<img src="../aula12projetofinal/imagens/logo claro.png" alt="Logo">
 
 </header>
 
@@ -171,6 +187,8 @@ footer {
     
 
 </nav>
+
+<main>
 
     <h2>Áreas de Atuação</h2>
 <div>
@@ -187,7 +205,8 @@ footer {
 
             </table>    
          </span>
-        <span>
+ 
+         <span>
             <table>
         <tr><p id='titulo'>TRABALHISTA</p></tr>
                 <tr>         
