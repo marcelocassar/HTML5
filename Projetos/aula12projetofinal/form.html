@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index - Página do Escritório Richter Cassar e Costa</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+    
+    :root {
+
+--azulesc: #083d77ff;
+--amarelo: #ffbf0dff;
+--marrom: #432818ff;
+--branco: #fffffaff;
+--azulclaro: #8da9c4ff;
+--meuamarelo: rgb(255, 255, 237)
+}
+
+body {
+    max-width: 650px;
+    background-color: var(--azulclaro);
+    margin:auto;
+}
+
+header {
+
+   background-image: linear-gradient(to bottom, white, white);
+    text-align: center;
+    max-width: 600px;
+    min-width: 280px;
+    margin: auto;
+}
+
+header img {
+    width: 250px;
+    padding-bottom: 10px;
+}
+
+nav {
+    text-align: center; 
+    background-color: var(--azulesc);
+    padding-bottom: 7px;
+    max-width: 600px;
+    margin: auto;
+}
+
+nav > a {
+
+text-decoration: none;
+color: var(--branco);
+padding: 10px;
+text-shadow: 1px 2px 0px var(--marrom);
+font-weight: bold;    
+
+}
+
+nav > a:hover {
+
+    background-color: white;
+    color: #ffbf0dff;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 5px;
+
+}
+
+main { 
+    max-width: 600px;
+    min-width: 280px;
+    margin: auto;
+    background-color: var(--branco);
+}
+
+h1 {
+
+    max-width: 250px;
+    color: var(--azulesc);
+    text-align: center;
+    text-shadow: 1px 1px 0px var(--marrom);
+    margin: auto;
+    padding: 30px;
+}
+
+h2 {
+    width: 500px;
+    padding-top: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+#form {
+
+    text-align: center;
+
+}
+
+#form > a {
+
+    text-decoration: none;
+    display: inline-block;
+    color: var(--azulesc);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-right: 10px;
+}
+
+#dados div{
+
+display: inline-block;
+
+}
+
+#problema div{
+
+    display: inline-block;
+   
+}
+
+
+
+footer {
+background-color: var(--azulesc);
+max-width: 600px;
+min-width: 280px;
+color: white;
+text-shadow: 0.2px 0.2px 0px var(--marrom);
+font-size: 12px;
+margin:auto;
+text-align: center;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+
+    <img src="../aula12projetofinal/imagens/logo claro.png" alt="Logo">
+
+</header>
+
+<nav>
+    
+    <a href="index.html">Home</a>
+    <a href="sobrenos.html">Sobre Nós</a>
+    <a href="areas.html">Áreas de Atuação</a>
+    <a href="blog.html">Blog</a>
+    <a href="form.html">Formulários</a>
+    <a href="fale.html">Fale Conosco</a>    
+
+</nav>
+
+
+<main>
+
+<h2>Formulários</h2>
+<div id='form'>
+<a href="Consumidor">Consumidor</a>
+<a style="color: black; text-decoration: black;" href="Trabalhista">Trabalhista</a>
+<a href="INSS">INSS</a>
+<a href="">Familia</a>
+</div>
+
+<div id='corpoform'>
+
+<fieldset id="dados">
+    <legend>Dados</legend>
+    <div>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="">
+        
+    </div>
+    <div>
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="">
+    </div>
+    
+    <div>
+        <label for="telefone">Telefone:</label>
+        <input type="tel" name="telefone" id="">
+    </div>
+    
+    <div>
+        <label for="estadocivil">Estado Civil:</label>
+        <input type="tex" name="estadocivil" id="">
+        
+    </div>
+    <div>
+        <label for="end">Endereço:</label>
+        <input type="text" name='end'>
+        
+    </div>
+</fieldset>
+
+
+<div id="vinculo">
+
+<fieldset>
+    <legend> Qual seu vínculo? </legend>
+    
+    <label for="vinculo">Carteira Assinada</label>
+    <input type="radio" name="vinculo">
+    
+    <label for="vinculo">Sem Carteira</label>
+    <input type="radio" name="vinculo">
+    
+    <label for="vinculo">Terceirizado</label>
+    <input type="radio" name="vinculo">
+    
+    <label for="vinculo">Outros</label>
+    <input type="radio" name="vinculo">
+</div>
+</fieldset>
+<div id="problema">
+
+<fieldset>
+      
+        <legend> Qual o seu problema? </legend>
+          
+        <div>
+            <label for = "problema">Fui mandando embora e não recebi</label>
+            <input type = "checkbox" id = "codificação" name = "interesse" value = "codificação">
+        </div>
+        <div>
+            <label for = "problema"> Tenho dúvida do valor pago </label>
+            <input type = "checkbox" id = "1" name = "1">
+        </div>
+        <div>
+            <label for = "problema"> Horas Extras </label>
+            <input type = "checkbox" id = "1" name = "1">
+        </div>
+        <div>
+            <label for = "problema"> Acúmulo ou Desvio de Função </label>
+            <input type = "checkbox" id = "1" name = "1">
+        </div>
+        <div>
+            <label for = "problema"> Danos Morais </label>
+            <input type = "checkbox" id = "1" name = "1">
+        </div>
+        <div>
+            <label for = "problema"> Não recebo VT </label>
+            <input type = "checkbox" id = "1" name = "1">
+        </div>
+
+        <div>
+            <label for = "problema"> Não recebo VR </label>
+            <input type = "checkbox" id = "1" name = "1">
+        </div>
+
+        <div>
+            <label for = "problema"> Sou doméstica(o) </label>
+            <input type = "checkbox" id = "1" name = "1">
+        </div>
+        <div>
+            <label for = "problema"> Atraso no Pagamento </label>
+            <input type = "checkbox" id = "1" name = "1">
+        </div>
+        <div>
+            <label for = "problema"> Outros </label>
+            <input type = "checkbox" id = "1" name = "1">
+        </div>
+    </fieldset>
+</div>
+
+</div>
+
+<div id="data e obs">
+
+<div style="text-align: center;">
+
+        <div style="display: inline-block;">
+            <label for="data">Entrada</label>
+            <input type="date" name="" id="">
+        </div>
+        <div style="display: inline-block;">
+            <label for="data">Saída</label>
+            <input type="date" name="" id="">
+        </div>
+</div>
+
+<div style="text-align: center;">
+    <p>
+        <label for="obs">Observações</label>
+    </p>
+        <p>
+        <textarea name="obs" id="" cols="50" rows="10"></textarea>
+        </p>
+</div>
+
+<p style="text-align: center;"><input type="submit" value="Enviar"></p>
+
+
+</div>
+
+</main>
+
+<footer>
+
+    Todos os Direitos Reservados a <strong>Richter Cassar e Costa Advogados</strong> - Site desenvolvido por <strong>Marcelo Richter Cassar</strong>
+
+
+</footer>
+
+</body>
+
+
+</html>
